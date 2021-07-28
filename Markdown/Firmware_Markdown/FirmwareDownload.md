@@ -130,7 +130,9 @@ python setup.py install
 
 `注意后面` `.` `不要忽略，命令没有换行符，因为屏幕太窄有些设备看起来命令间有换行`
 
+<br>
 
+<br>
 
 `检查三星Galaxy设备的最新固件`
 
@@ -156,6 +158,8 @@ G9910ZCU2AUDD/G9910CHC2AUDD/G9910ZCU2AUE1/G9910ZCU2AUDD
 
 <br>
 
+<br>
+
 `使用以下命令为您的三星 Galaxy 设备下载最新的固件更新：`
 
 ```shell
@@ -175,11 +179,11 @@ downloading SM-G9910_1_20210512142736_ofnn115ugq_fac.zip.enc4
 [###########                     ] 44281/119835 - 00:07:40
 ```
 
+<br>
 
+<br>
 
-
-
-`从三星服务器下载的固件更新文件以.enc2格式（对于较旧的设备）或.enc4格式（对于较新的设备）进行解密。因此，你必须将固件文件解密为常规.zip格式。解密下载的 enc2/enc4 固件文件，请使用以下命令：`
+<br>`从三星服务器下载的固件更新文件以.enc2格式（对于较旧的设备）或.enc4格式（对于较新的设备）进行解密。因此，你必须将固件文件解密为常规.zip格式。解密下载的 enc2/enc4 固件文件，请使用以下命令：`
 
 ```shell
 samloader -m <model> -r <region> decrypt -v <version> -V <enc-version> -i <input-file> -o <output-file>
@@ -191,31 +195,11 @@ samloader -m <model> -r <region> decrypt -v <version> -V <enc-version> -i <input
 samloader -m SM-G9910 -r CHC decrypt -v G9910ZCU2AUDD/G9910CHC2AUDD/G9910ZCU2AUE1/G9910ZCU2AUDD -V 4 -i SM-G9910_1_20210512142736_ofnn115ugq_fac.zip.enc4 -o SM-G9910_1_20210512142736_ofnn115ugq_fac.zip
 ```
 
+<br>
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 
 注意你在什么地方运行的`cmd`窗口，下载的固件就在什么位置。
 
@@ -223,6 +207,5 @@ samloader -m SM-G9910 -r CHC decrypt -v G9910ZCU2AUDD/G9910CHC2AUDD/G9910ZCU2AUE
 
 用`Galaxy S21 SM-G9910` 作为演示机型，注意变通
 
-
-
 ![17](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_17.png) 
+
