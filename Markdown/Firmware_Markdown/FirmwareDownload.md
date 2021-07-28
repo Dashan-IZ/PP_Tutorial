@@ -2,13 +2,19 @@
 
 # 用DOS命令下载三星固件
 
+<br>
+
+<br>
+
 ### 为什么要使用DOS命令下载固件？
 
 - SamFirm和Frija工具已经不可用
 - DOS命令下载快速，轻量，稳定
 - 从官方服务器下载三星任何固件
 
+<br>
 
+<br>
 
 ### 一、准备工作
 
@@ -19,15 +25,19 @@
 
 ![0](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_0.png)
 
-- [三星驱动下载地址可以参考上一篇教程](https://shimo.im/docs/99GCwYhv8pP6cvqD/)
+- [三星驱动下载地址可以参考上一篇教程](https://github.com/Dashan-37/PP_Tutorial/blob/master/Markdown/Uninstall_Markdown/Uninstall.md)
 
+<br>
 
+<br>
 
 ### 二、python安装及配置
 
 - 用`这里恩恩` 提供的下载地址解压获得以下内容：
 
 ![1](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_1.png)
+
+<br>
 
 - 解压`python-3.9.5-embed-amd64.zip`到`D:`盘（推荐）
 - 如图：
@@ -40,11 +50,15 @@
 
 [配置环境变量这里简单说一下，具体详细步骤参考第一篇文章](https://shimo.im/docs/99GCwYhv8pP6cvqD/ ) 
 
+<br>
 
+<br>
 
 - 系统变量中配置`Python`
 
 ![5](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_5.png)
+
+<br>
 
 - 系统`Path`变量中配置`Python`变量：
 
@@ -52,23 +66,33 @@
 
 - 完成**第一步**环境变量配置。
 
+<br>
 
+<br>
+
+<br>
 
 ###  三、修改python39.pth文件
 
 ![7](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_7.png)
 
+<br>
 
+<br>
+
+<br>
 
 ### 四、安装get-pip.py
 
 ![8](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_8.png)
 
-
+<br>
 
 - 把文件`get-pip.py`复制到`python-3.9`文件夹根目录中，该地址下运行`cmd`
 
 ![9](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_9.png)
+
+<br>
 
 ```shell
 cmd窗口输入
@@ -79,35 +103,45 @@ python get-pip.py
 
 ![10](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_10.png)
 
+<br>
+
+- 出现如下命令说明安装pip成功，现在`python-3.9`根目录多了两个文件夹，如图：
 
 
-出现如下命令说明安装pip成功，现在`python-3.9`根目录多了两个文件夹，如图：
+![11](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_11.png)
 
+<br>
 
-
-![11](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_11.png) 3、在配置文件`python39._pth`中用记事本打开加入`Lib\site-packages`如图：
+-  在配置文件`python39._pth`中用记事本打开加入`Lib\site-packages`如图：
 
 ![12](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_12.png)
 
-4、把`Scripts`文件夹配置到`Path`变量中
+<br>
+
+- 把`Scripts`文件夹配置到`Path`变量中
 
 ![13](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_13.png)
 
+- 环境变量配置完毕 
 
 
-环境变量配置完毕 
+<br>
 
+<br>
 
+<br>
 
-五、安装`samloader-master`
+### 五、安装`samloader-master`
 
-![14](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_14.png)1、解压
+![14](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_14.png)
 
-`samloader-master.zip`，解压地址下运行`cmd`
+<br>
+
+- 解压`samloader-master.zip`，解压地址下运行`cmd`
 
 ![15](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_15.png) 
 
-
+<br>
 
 - `cmd`窗口输入命令来安装`samloader-master`
 
@@ -122,9 +156,11 @@ python setup.py install
 
 `到这里环境已经搭建完毕，可以通过任意位置打开cmd用命令来获取任意的三星固件了`
 
+<br>
 
+<br>
 
-
+<br>
 
 ### 六、用DOS命令下载固件获取固件命令：
 
@@ -201,11 +237,9 @@ samloader -m SM-G9910 -r CHC decrypt -v G9910ZCU2AUDD/G9910CHC2AUDD/G9910ZCU2AUE
 
 <br>
 
-注意你在什么地方运行的`cmd`窗口，下载的固件就在什么位置。
-
-推荐桌面创建`ROM文件夹`，在`ROM文件夹根目录`运行`cmd`，这样下载的固件就在`ROM`文件夹下
-
-用`Galaxy S21 SM-G9910` 作为演示机型，注意变通
+- 注意你在什么地方运行的`cmd`窗口，下载的固件就在什么位置。
+- 推荐桌面创建`ROM文件夹`，在`ROM文件夹根目录`运行`cmd`，这样下载的固件就在`ROM`文件夹下
+- 用`Galaxy S21 SM-G9910` 作为演示机型，注意变通
 
 ![17](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_17.png) 
 
