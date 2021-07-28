@@ -52,7 +52,7 @@
 
 <br>
 
-[配置环境变量这里简单说一下，具体详细步骤参考第一篇文章](https://shimo.im/docs/99GCwYhv8pP6cvqD/ ) 
+[配置环境变量这里简单说一下，具体详细步骤参考第一篇文章](https://github.com/Dashan-37/PP_Tutorial/blob/master/Markdown/Uninstall_Markdown/Uninstall.md) 
 
 <br>
 
