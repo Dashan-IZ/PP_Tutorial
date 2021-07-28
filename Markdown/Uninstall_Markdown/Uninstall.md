@@ -2,10 +2,10 @@
 
 - 下载`android_sdk/platform-tools`
   - 这是`Android`官网的调试`SDK`，支持很多功能，不仅仅局限于`adb`命令。
-  - [官网SDK地址](https://developer.android.com/studio/command-line/adb)   `需要翻墙`
-  - [蓝奏云SDK地址](https://dashan3.lanzoui.com/i76VVpjnylc)   `最新`
-  - [官网三星驱动地址](https://developer.samsung.com/mobile/android-usb-driver.html)
-  - [蓝奏云三星驱动地址 ](https://dashan3.lanzoui.com/ipInbpl4dsb)   `最新`
+  - [官网SDK下载地址](https://developer.android.com/studio/command-line/adb)   `需要翻墙`
+  - [蓝奏云SDK下载地址](https://dashan3.lanzoui.com/i76VVpjnylc)   `最新`
+  - [官网三星驱动下载地址](https://developer.samsung.com/mobile/android-usb-driver.html)
+  - [蓝奏云三星驱动下载地址 ](https://dashan3.lanzoui.com/ipInbpl4dsb)   `最新`
 
 
 
@@ -13,7 +13,7 @@
 
 - 配置环境变量![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_3.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_4.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_5.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_6.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_7.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_8.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_9.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_10.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_11.png) 
 
-  ```txt
+  ```shell
   打开cmd窗口输入：
   
   //查看adb版本 
@@ -53,7 +53,7 @@
   //三星语音输入法推荐卸载 com.samsung.android.svoiceime 
   //搜狗输入法三星版推荐卸载 com.sohu.inputmethod.sogou.samsung   
   
-  //ADB命令适用于所有安卓手机，不要问我华为可不可以，因为我也
+  //ADB命令适用于所有安卓手机，不要问我华为可不可以，因为我也不知道！！！
   ```
 
   ![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_13.png) 
