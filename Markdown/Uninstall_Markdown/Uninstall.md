@@ -1,17 +1,40 @@
 # ADB命令卸载内置软件
 
-一、下载`android_sdk/platform-tools`
+<br>
+
+### 一、下载`android_sdk/platform-tools`
+
 - 这是`Android`官网的调试`SDK`，支持很多功能，不仅仅局限于`adb`命令。
 - [官网SDK下载地址](https://developer.android.com/studio/command-line/adb)   `需要翻墙`
 - [蓝奏云SDK下载地址](https://dashan3.lanzoui.com/i76VVpjnylc)   `最新`
 - [官网三星驱动下载地址](https://developer.samsung.com/mobile/android-usb-driver.html)
 - [蓝奏云三星驱动下载地址 ](https://dashan3.lanzoui.com/ipInbpl4dsb)   `最新`
 
+<br>
 
+<br>
 
-二、解压文件到任意位置，推荐解压到`D：`盘![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_1.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_2.png)
+<br>
 
-三、配置环境变量![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_3.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_4.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_5.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_6.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_7.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_8.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_9.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_10.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_11.png) 
+### 二、解压文件到任意位置，推荐解压到`D：`盘
+
+![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_1.png)
+
+![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_2.png)
+
+<br>
+
+<br>
+
+<br>
+
+### 三、配置环境变量
+
+![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_3.png)
+
+![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_4.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_5.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_6.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_7.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_8.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_9.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_10.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_11.png)
+
+<br><br>
 
 ```shell
 打开cmd窗口输入：
@@ -22,9 +45,11 @@ adb version
 //看到下图说明你的环境变量已经配置好了，可以开始使用adb命令来调试手机
 ```
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_12.png) 
+![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_12.png)
 
-```txt
+<br><br>
+
+```
 连接电脑：  
 1.手机必须进入开发者模式。 
 2.手机必须打开USB调试模式（当然卸载完成后这些都是可以关闭的）。 
@@ -32,6 +57,8 @@ adb version
 	手机用数据线链接电脑，如果手机有弹窗则一直点击【是✓】就好了。  有一个弹窗一定要注意，【是否允许该电脑调试手机】点击【一直允许】 
 4.手机连接电脑完成后关闭cmd窗口，重新用管理员模式打开cmd窗
 ```
+
+<br>
 
 ```shell
 卸载命令： 
@@ -58,9 +85,13 @@ pm uninstall -k --user 0 com.sohu.inputmethod.sogou.samsung
 
 ![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_13.png) 
 
+<br>
+
+<br>
+
 ##### 下面分享一些可以卸载的内置应用：
 
-```shell
+```
 pm uninstall --user 0 com.sohu.inputmethod.sogou.samsung
 搜狗输入法三星版
 
@@ -192,6 +223,5 @@ pm uninstall --user 0 com.samsung.knox.securefolder
 
 pm uninstall --user 0 com.google.android.as
 设备个性化服务
-
 ```
 
