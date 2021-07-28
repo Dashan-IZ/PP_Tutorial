@@ -4,8 +4,6 @@
 
 <br>
 
-<br>
-
 ### 为什么要使用DOS命令下载固件？
 
 - SamFirm和Frija工具已经不可用
@@ -25,6 +23,8 @@
 
 ![0](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_0.png)
 
+<br>
+
 - [三星驱动下载地址可以参考上一篇教程](https://github.com/Dashan-37/PP_Tutorial/blob/master/Markdown/Uninstall_Markdown/Uninstall.md)
 
 <br>
@@ -32,6 +32,8 @@
 <br>
 
 ### 二、python安装及配置
+
+<br>
 
 - 用`这里恩恩` 提供的下载地址解压获得以下内容：
 
@@ -47,6 +49,8 @@
 ![3](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_3.png)
 
 ![4](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_4.png)
+
+<br>
 
 [配置环境变量这里简单说一下，具体详细步骤参考第一篇文章](https://shimo.im/docs/99GCwYhv8pP6cvqD/ ) 
 
@@ -91,6 +95,8 @@
 - 把文件`get-pip.py`复制到`python-3.9`文件夹根目录中，该地址下运行`cmd`
 
 ![9](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_9.png)
+
+<br>
 
 <br>
 
