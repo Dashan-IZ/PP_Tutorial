@@ -2,6 +2,10 @@
 
 <br>
 
+<div align = "center">如果图片加载不出来，请用`VPN`访问</div>
+
+<br>
+
 ### 一、下载`android_sdk/platform-tools`
 
 - 这是`Android`官网的调试`SDK`，支持很多功能，不仅仅局限于`adb`命令。

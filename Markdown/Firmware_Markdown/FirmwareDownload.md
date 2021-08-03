@@ -4,6 +4,10 @@
 
 <br>
 
+##### <div align = "center">如果图片加载不出来，请用`VPN`访问</div>
+
+<br>
+
 ### 为什么要使用DOS命令下载固件？
 
 - SamFirm和Frija工具已经不可用
