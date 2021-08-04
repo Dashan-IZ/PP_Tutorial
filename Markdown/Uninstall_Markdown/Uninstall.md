@@ -22,9 +22,9 @@
 
 ### 二、解压文件到任意位置，推荐解压到`D：`盘
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_1.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_1.png)
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_2.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_2.png)
 
 <br>
 
@@ -34,9 +34,9 @@
 
 ### 三、配置环境变量
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_3.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_3.png)
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_4.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_5.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_6.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_7.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_8.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_9.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_10.png)![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_11.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_4.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_5.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_6.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_7.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_8.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_9.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_10.png)![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_11.png)
 
 <br><br>
 
@@ -49,7 +49,7 @@ adb version
 //看到下图说明你的环境变量已经配置好了，可以开始使用adb命令来调试手机
 ```
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_12.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_12.png)
 
 <br><br>
 
@@ -87,7 +87,7 @@ pm uninstall -k --user 0 com.sohu.inputmethod.sogou.samsung
 //ADB命令适用于所有安卓手机，不要问我华为可不可以，因为我也不知道！！！
 ```
 
-![img](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Uninstall_Images/image_13.png) 
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Uninstall_Images/image_13.png) 
 
 <br>
 
