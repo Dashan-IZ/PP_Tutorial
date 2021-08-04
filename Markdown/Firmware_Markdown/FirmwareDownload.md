@@ -25,7 +25,7 @@
 - [Samloader工具GiHub开源地址](https://github.com/nlscc/samloader)
 - 爱折腾的搞机友可以自己官网下载。【[蓝奏云](https://dashan3.lanzoui.com/iy2SApn1ove)】下载解压可获得以上全部
 
-![0](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_0.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_0.png)
 
 <br>
 
@@ -41,18 +41,18 @@
 
 - 用`这里恩恩` 提供的下载地址解压获得以下内容：
 
-![1](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_1.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_1.png)
 
 <br>
 
 - 解压`python-3.9.5-embed-amd64.zip`到`D:`盘（推荐）
 - 如图：
 
-![2](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_2.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_2.png)
 
-![3](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_3.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_3.png)
 
-![4](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_4.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_4.png)
 
 <br>
 
@@ -64,13 +64,13 @@
 
 - 系统变量中配置`Python`
 
-![5](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_5.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_5.png)
 
 <br>
 
 - 系统`Path`变量中配置`Python`变量：
 
-![6](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_6.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_6.png)
 
 - 完成**第一步**环境变量配置。
 
@@ -82,7 +82,7 @@
 
 ###  三、修改python39.pth文件
 
-![7](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_7.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_7.png)
 
 <br>
 
@@ -92,13 +92,13 @@
 
 ### 四、安装get-pip.py
 
-![8](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_8.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_8.png)
 
 <br>
 
 - 把文件`get-pip.py`复制到`python-3.9`文件夹根目录中，该地址下运行`cmd`
 
-![9](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_9.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_9.png)
 
 <br>
 
@@ -111,26 +111,26 @@ cmd窗口输入
 python get-pip.py
 ```
 
-![10](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_10.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_10.png)
 
 <br>
 
 - 出现如下命令说明安装pip成功，现在`python-3.9`根目录多了两个文件夹，如图：
 
 
-![11](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_11.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_11.png)
 
 <br>
 
 -  在配置文件`python39._pth`中用记事本打开加入`Lib\site-packages`如图：
 
-![12](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_12.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_12.png)
 
 <br>
 
 - 把`Scripts`文件夹配置到`Path`变量中
 
-![13](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_13.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_13.png)
 
 - 环境变量配置完毕 
 
@@ -143,13 +143,13 @@ python get-pip.py
 
 ### 五、安装`samloader-master`
 
-![14](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_14.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_14.png)
 
 <br>
 
 - 解压`samloader-master.zip`，解压地址下运行`cmd`
 
-![15](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_15.png) 
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_15.png) 
 
 <br>
 
@@ -162,7 +162,7 @@ python setup.py install
 如图：
 ```
 
-![16](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_16.png)
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_16.png)
 
 `到这里环境已经搭建完毕，可以通过任意位置打开cmd用命令来获取任意的三星固件了`
 
@@ -251,5 +251,5 @@ samloader -m SM-G9910 -r CHC decrypt -v G9910ZCU2AUDD/G9910CHC2AUDD/G9910ZCU2AUE
 - 推荐桌面创建`ROM文件夹`，在`ROM文件夹根目录`运行`cmd`，这样下载的固件就在`ROM`文件夹下
 - 用`Galaxy S21 SM-G9910` 作为演示机型，注意变通
 
-![17](https://github.com/Dashan-37/PP_Tutorial/raw/master/Images/Firmware_Images/image_17.png) 
+![图片加载失败，请使用vpn打开网址！！！](https://github.com/Dashan-IZ/PP_Tutorial/raw/master/Images/Firmware_Images/image_17.png) 
 
